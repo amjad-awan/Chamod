@@ -67,7 +67,7 @@ export default function CategorySections() {
   const rows = chunk(categorySections, SECTIONS_PER_ROW);
 
   return (
-    <div dir="rtl" className="mx-auto max-w-[1600px]">
+    <div  className="mx-auto max-w-[1600px]">
       {rows.map((row, i) => (
         <div
           key={i}

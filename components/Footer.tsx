@@ -37,7 +37,6 @@ export default function Footer() {
 
   return (
     <footer
-      dir="ltr"
       className="mt-16 bg-[var(--color-footer-bg)] text-[var(--color-footer-text)]"
     >
       {/* Top: newsletter */}

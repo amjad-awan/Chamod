@@ -35,7 +35,6 @@ export default function Header() {
           </p>
 
           <div
-            dir="ltr"
             className="flex items-center gap-5 font-ui text-[10px] font-bold"
           >
             <a

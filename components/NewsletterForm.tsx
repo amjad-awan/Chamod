@@ -9,7 +9,6 @@ export default function NewsletterForm() {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    // TODO: connect to your email service (Mailchimp, ConvertKit, API route)
     setDone(true);
     setEmail("");
   };
